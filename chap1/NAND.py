@@ -1,6 +1,6 @@
 # NANDゲートの作成
 # ANDの大小を逆転させるだけ
-def AND(a,b):
+def NAND(a,b):
     w1    = 0.5
     w2    = 0.5
     theta = 1.0
@@ -14,7 +14,7 @@ def AND(a,b):
         return 0
         
 # 実践
-li = [AND(1,1),AND(1,0),AND(0,1),AND(0,0)]
+li = [NAND(1,1),NAND(1,0),NAND(0,1),NAND(0,0)]
 
 for i in li:
     print(i)
