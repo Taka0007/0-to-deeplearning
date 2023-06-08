@@ -1,3 +1,4 @@
+# 実数入力のみ対応
 def step_func(N):
     if N>0:
         return 1
